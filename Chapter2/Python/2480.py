@@ -26,3 +26,19 @@
 
 # 예제 출력
 # 12000
+
+a,b,c = map(int , input().split())
+
+if a == b == c :
+    print(10000 + (a * 1000))
+elif a == b or a == c:
+    print(1000 + (a * 100))
+elif b == c:
+    print(1000 + (b * 100))
+else:
+    if b - a < 0 and c - a < 0:
+        print(a * 100)
+    elif a - b < 0 and c - b < 0:
+        print(b * 100)
+    else:
+        print(c * 100)
