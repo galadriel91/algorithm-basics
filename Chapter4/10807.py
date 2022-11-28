@@ -15,6 +15,14 @@
 # 예제 출력 
 # 3
 
+# 예제 입력
+# 11
+# 1 4 1 2 4 2 4 2 3 4 4
+# 5
+
+# 예제 출력
+# 0
+
 a = int(input())
 b = list(map(int, input().split()))
 c = int(input())
